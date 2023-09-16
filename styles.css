@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+ /* background-color: #011F3F; */
+}
+body {
+  background-image: url('./sounds/ezgif-2-dacdcd51e0.gif');
+  background-size: cover; /* Adjust to your preference */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-image: url(./images/Wrong-ans.gif);
+ /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url('./images/red.png');
+}
+
+.green {
+  background-image: url('./images/green.jpg');
+}
+
+.blue {
+  background-image: url('./images/blue.jpg');
+}
+
+.yellow {
+  background-image: url('./images/img-yellow.jpg');
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+footer{
+  margin-top: 80px;
+  font-size: larger;
+}
